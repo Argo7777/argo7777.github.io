@@ -3,25 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Argo77</title>
-    <h2>(im going to rename to p3tabyte soon dont worry)</h2>
+    <title>Argo77 | Official Site</title>
     <style>
-        body { background-color: #121212; color: white; font-family: 'Helvetica', sans-serif; text-align: center; padding: 50px; }
+        body { background-color: #121212; color: white; font-family: 'Helvetica', sans-serif; text-align: center; padding: 50px 20px; }
         .container { max-width: 800px; margin: auto; }
-        h1 { font-size: 3rem; margin-bottom: 20px; }
-        .spotify-embed { margin-top: 30px; border-radius: 12px; overflow: hidden; }
-        .social-links a { color: #1DB954; text-decoration: none; margin: 0 10px; font-weight: bold; }
+        h1 { font-size: 3rem; margin-bottom: 5px; }
+        h2 { font-size: 1rem; color: #555; margin-bottom: 30px; font-weight: normal; }
+        p { color: #b3b3b3; }
+        
+        .spotify-embed { margin-top: 30px; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+        
+        .social-links { margin: 25px 0; }
+        .social-links a { color: #1DB954; text-decoration: none; margin: 0 10px; font-weight: bold; transition: 0.3s; }
+        .social-links a:hover { color: #1ed760; }
+
+        .contact-section { margin-top: 50px; padding-top: 30px; border-top: 1px solid #333; }
+        .contact-section h3 { margin-bottom: 10px; }
+        .email-link { color: white; text-decoration: none; font-size: 1.1rem; border-bottom: 1px solid #1DB954; padding-bottom: 2px; }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Argo77</h1>
+        <h2>(im going to rename to p3tabyte soon dont worry)</h2>
+        
         <p>Listen to my latest tracks on Spotify.</p>
         
         <div class="social-links">
-            <a href="#">[INSTAGRAM NOT AVALIABLE]</a>
-            <a href="#">[TWITTER NOT AVALIABLE]</a>
-            <a href="https://www.youtube.com/channel/UCteOGyBYTyLeE-DUpzeXNuA">YouTube</a>
+            <a href="https://www.youtube.com/channel/UCteOGyBYTyLeE-DUpzeXNuA" target="_blank">YouTube</a>
+            <span style="color: #444; margin: 0 10px;">[INSTAGRAM N/A]</span>
+            <span style="color: #444; margin: 0 10px;">[TWITTER N/A]</span>
         </div>
 
         <!-- Spotify Artist Embed -->
@@ -32,6 +43,13 @@
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
                 loading="lazy">
             </iframe>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="contact-section">
+            <h3>Contact</h3>
+            <p>Manyuon Manyuon</p>
+            <a href="mailto:manyuon880@gmail.com" class="email-link">manyuon880@gmail.com</a>
         </div>
     </div>
 </body>
